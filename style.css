@@ -1,0 +1,99 @@
+body {
+  padding-top: 55px;
+  font-family: 'Open Sans', sans-serif !important;
+
+}
+
+.mainTitle{
+  padding-top: 10px;
+  position: relative;
+}
+
+
+
+@media (min-width: 720px) {
+
+  .mainTitle{
+    padding-top: 50px;
+    left: -150px;
+  }
+
+}
+
+.navbar-brand{
+  padding: 0;
+}
+
+.logoNav{
+  width: 110px;
+}
+
+.navbar{
+  position: fixed;
+  top:0;
+  z-index: 2;
+  width: 100%;
+}
+
+
+.mainBanner {
+  position: relative;
+  padding: 0;
+}
+
+
+
+
+
+.mainTitle h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.mainTitle h4{
+  font-weight: 400;
+  color: #59656F;
+}
+
+.bannerMainImage{
+  height: 500px;
+  /*gradient to transparent image*/
+  -webkit-mask-image:linear-gradient(to right, rgba(0, 0, 0, 1) 40%, transparent 60%);
+}
+
+.mainMission{
+  margin: 40px 0 20px 0;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+.frontText h1{
+  font-weight: 700;
+}
+
+.rowMission{
+  margin-top: 20px;
+}
+
+.missionImage{
+  width: 100px;
+}
+
+.contactUs{
+  padding: 20px;
+  background-color: #435560;
+  color: white;
+    text-align: center;
+}
+
+.contactDetails{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.top1{
+  border-right: 2px solid black;
+}
