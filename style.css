@@ -21,6 +21,18 @@ body {
 
 }
 
+@media (max-width: 720px) {
+
+  .mainTitle{
+    text-align: center;
+  }
+
+  .bannerImg{
+    text-align: center;
+  }
+
+}
+
 .logoNav{
   width: 110px;
 }
