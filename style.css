@@ -67,7 +67,7 @@ body {
 
 
 .bannerMainImage{
-  height: 400px;
+  height: 350px;
   /*gradient to transparent image*/
   /* -webkit-mask-image:linear-gradient(to right, rgba(0, 0, 0, 1) 40%, transparent 60%); */
 }
